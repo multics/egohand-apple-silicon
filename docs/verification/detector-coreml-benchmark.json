@@ -1,0 +1,37 @@
+[
+  {
+    "name": "cpu_original",
+    "load_seconds": 0.1245398329992895,
+    "warm_median_ms": 163.0692500002624,
+    "warm_p95_ms": 164.50406695025777,
+    "first_ms": 167.51225000007253,
+    "provider_node_counts": {
+      "CPUExecutionProvider": 756
+    },
+    "max_abs_errors_labels_boxes_scores": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "parity_passed": true,
+    "notes": "Raw session execution excludes image preprocessing. Core ML graph assignment does not prove ANE placement. Profile events add overhead."
+  },
+  {
+    "name": "coreml_batch1",
+    "load_seconds": 8.318286333000287,
+    "warm_median_ms": 16.21210399980555,
+    "warm_p95_ms": 18.741745499710305,
+    "first_ms": 159.2379579997214,
+    "provider_node_counts": {
+      "CPUExecutionProvider": 15,
+      "CoreMLExecutionProvider": 6
+    },
+    "max_abs_errors_labels_boxes_scores": [
+      0.0,
+      0.001708984375,
+      2.086162567138672e-06
+    ],
+    "parity_passed": true,
+    "notes": "Raw session execution excludes image preprocessing. Core ML graph assignment does not prove ANE placement. Profile events add overhead."
+  }
+]

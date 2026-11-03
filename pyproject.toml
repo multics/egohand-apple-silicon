@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "egohand-macos"
+version = "0.1.0"
+license = {file = "LICENSE"}
+requires-python = ">=3.12,<3.13"
+description = "Experimental live EgoHand integration for Apple Silicon"
+dependencies = [
+  "torch", "torchvision", "numpy", "opencv-python==4.11.0.86", "huggingface-hub",
+  "hydra-core", "rich", "einops", "scipy", "trimesh", "py-soma-x==0.3.0",
+  "onnxruntime", "onnx==1.23.2",
+]
+
+[project.scripts]
+egohand-live = "egohand_live.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F"]

@@ -1,0 +1,22 @@
+{
+  "frames": 40,
+  "hand_presence_identical": true,
+  "geometry_within_1mm": true,
+  "max_box_cxcys_difference_pixels": 0.00031738281268189894,
+  "maximum_output_absolute_differences": {
+    "left_poses": 0.0004982054233551025,
+    "left_identity_coeffs": 0.005202889442443848,
+    "left_scale_params": 0.002497375011444092,
+    "left_global_scale": 0.0001424551010131836,
+    "left_pred_keypoints_3d": 9.769946336746216e-05,
+    "left_pred_vertices": 9.780377149581909e-05,
+    "left_transl": 4.416704177856445e-05,
+    "right_poses": 0.0009800121188163757,
+    "right_identity_coeffs": 0.004795745015144348,
+    "right_scale_params": 0.003531813621520996,
+    "right_global_scale": 0.00022423267364501953,
+    "right_pred_keypoints_3d": 0.00010945647954940796,
+    "right_pred_vertices": 0.00011002272367477417,
+    "right_transl": 9.301304817199707e-05
+  }
+}

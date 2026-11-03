@@ -1,0 +1,74 @@
+[
+  {
+    "repo": "nvidia/EgoHand-v1",
+    "revision": "a153616c5192e6a8b09dbd302f682093080c5b83",
+    "filename": "egohand_s060000.ckpt",
+    "bytes": 10657169753,
+    "sha256": "f940ecb6e3b73d5bd9e562cff232550e1c072f6c063eb4f705951122b15d8a75",
+    "official_hash_verified": true
+  },
+  {
+    "repo": "nvidia/SOMA-X",
+    "revision": "f81a01796f652260ff930d5318d6c6b845a505ed",
+    "filename": "SOMAHand.npz",
+    "bytes": 993833,
+    "sha256": "233e9225c1da05c6a3dd98107b9f027f2366e3b972bbe67e0d164e5d28619fff",
+    "official_hash_verified": true
+  },
+  {
+    "repo": "nvidia/SOMA-X",
+    "revision": "f81a01796f652260ff930d5318d6c6b845a505ed",
+    "filename": "SOMA_neutral.npz",
+    "bytes": 26608121,
+    "sha256": "5829af4a5333abdba5ad449360b868faacee99d395971e62f35c0e7169432b63",
+    "official_hash_verified": true
+  },
+  {
+    "repo": "nvidia/SOMA-X",
+    "revision": "f81a01796f652260ff930d5318d6c6b845a505ed",
+    "filename": "SOMA_template_rig.usda",
+    "bytes": 28306038,
+    "sha256": "a952cb7bdf4ccd801e355d53122d395b985b69d0d9181439edad5081bb171856",
+    "official_hash_verified": true
+  },
+  {
+    "repo": "nvidia/SOMA-X",
+    "revision": "f81a01796f652260ff930d5318d6c6b845a505ed",
+    "filename": "SOMA_procedural_transforms.json",
+    "bytes": 20045,
+    "sha256": "9853e19ab51625ffaa7d9e7ccf0e443272c2740837604e6bacd66604e8edf509",
+    "official_hash_verified": true
+  },
+  {
+    "repo": "nvidia/SOMA-X",
+    "revision": "f81a01796f652260ff930d5318d6c6b845a505ed",
+    "filename": "MHR/mhr_model_lod1.pt",
+    "bytes": 696110248,
+    "sha256": "352e271a6c42729c68554ceaea0c955e866970160c31e35506d782dc0f7377bc",
+    "official_hash_verified": true
+  },
+  {
+    "repo": "nvidia/SOMA-X",
+    "revision": "f81a01796f652260ff930d5318d6c6b845a505ed",
+    "filename": "MHR/base_body_lod1.obj",
+    "bytes": 2277452,
+    "sha256": "e8bbb3f3681d76737635c10a9e6f6a058ad3d9be5a75547f84a578cea572e916",
+    "official_hash_verified": true
+  },
+  {
+    "repo": "nvidia/SOMA-X",
+    "revision": "f81a01796f652260ff930d5318d6c6b845a505ed",
+    "filename": "MHR/SOMA_wrap_lod1.obj",
+    "bytes": 1816801,
+    "sha256": "9ab7a2328d5b026c17ef1d09ed692ffeb68f96d3fc74970cba72e667dbe0f728",
+    "official_hash_verified": true
+  },
+  {
+    "repo": "nvidia/RT-DETR-Hand-Detector-v1",
+    "revision": "55572ddc93a5916c3e486811dc6e62bb2b7bdb9d",
+    "filename": "hand_detector.onnx",
+    "bytes": 80371970,
+    "sha256": "85d36428cc1ecf8832ca2d48f7aa04df0659cf94dde358352fb3cf651a319810",
+    "official_hash_verified": true
+  }
+]

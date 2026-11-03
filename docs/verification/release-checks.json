@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-03",
+  "scope": "Release correctness checks, not a performance benchmark",
+  "environment": "Fresh Python 3.12 virtual environment on Apple M2 Max",
+  "dependency_install": "Pinned public package versions and pinned DINOv3 Git revision installed successfully",
+  "upstream_files_fetched_and_checked": 122,
+  "dependency_check_passed": true,
+  "unit_tests_passed": 11,
+  "ruff_passed": true,
+  "mps_tensor_check": true,
+  "official_asset_hash_check_passed": true,
+  "asset_note": "Official model assets reused locally and hash-verified; multi-GB weight download not repeated",
+  "real_checkpoint": {
+    "input": "Calibrated NVIDIA public sample",
+    "network_device": "mps",
+    "physical_hands": [
+      "left",
+      "right"
+    ],
+    "joints_per_hand": 25,
+    "vertices_per_hand": 2859,
+    "finite_outputs": true,
+    "valid_rotations": true
+  },
+  "launcher": {
+    "called_from_other_directory": true,
+    "video_frames_checked": 2,
+    "both_hands_in_each_frame": true,
+    "exported_geometry_validated": true,
+    "calibration_override_passed": true
+  },
+  "not_checked": [
+    "Fresh live camera session on another Mac",
+    "Minimum RAM requirement",
+    "Sustained real-time throughput",
+    "Ground-truth pose accuracy"
+  ]
+}
