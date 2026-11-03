@@ -12,3 +12,6 @@ work/
 .ruff_cache/
 calibration/
 .env.*
+
+build/
+dist/
