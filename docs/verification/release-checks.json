@@ -34,5 +34,16 @@
     "Minimum RAM requirement",
     "Sustained real-time throughput",
     "Ground-truth pose accuracy"
-  ]
+  ],
+  "public_clone": {
+    "fresh_environment_setup_passed": true,
+    "setup_assets_mode": "--skip-assets",
+    "package_install": "regular wheel",
+    "cli_from_other_directory_passed": true,
+    "unit_tests_passed": 11,
+    "ruff_passed": true,
+    "dependency_check_passed": true,
+    "mps_tensor_check_passed": true
+  },
+  "pinned_model_card_download_passed": true
 }

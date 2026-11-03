@@ -41,5 +41,8 @@ repository and runtime remain unchanged.
 
 Public-clone follow-up: the second checkout exposed an editable-install path
 problem. Setup now installs the integration as a regular wheel and reinstalls
-it when setup is repeated. The source runtime is unchanged. Validate this
-install, CLI help and all tests from the public clone before closing release.
+it when setup is repeated. The source runtime is unchanged. A fresh environment in
+the public clone now passes setup, imports, MPS tensor checks, all 11 tests,
+Ruff and dependency checks. CLI help works when the launcher is invoked from
+another directory. Public source contains no private configuration or history.
+Release validation is complete; no new speed benchmark is claimed.
