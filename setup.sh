@@ -21,7 +21,7 @@ else
 fi
 uv pip install --python .venv/bin/python -r requirements-macos-tested.txt
 uv pip install --python .venv/bin/python --no-deps -r requirements-dinov3.txt
-uv pip install --python .venv/bin/python --no-deps -e .
+uv pip install --python .venv/bin/python --no-deps --reinstall-package egohand-macos .
 .venv/bin/python scripts/fetch_upstream.py assets/egopost
 if [[ "${1:-}" != --skip-assets ]]; then
   .venv/bin/python scripts/fetch_assets.py weights

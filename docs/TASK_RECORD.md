@@ -38,3 +38,8 @@ from outside the checkout. Both frames contain both physical hands; exported
 geometry passed validation. This checks the launch path, not video accuracy
 or throughput. See `verification/release-checks.json`. Original private
 repository and runtime remain unchanged.
+
+Public-clone follow-up: the second checkout exposed an editable-install path
+problem. Setup now installs the integration as a regular wheel and reinstalls
+it when setup is repeated. The source runtime is unchanged. Validate this
+install, CLI help and all tests from the public clone before closing release.
