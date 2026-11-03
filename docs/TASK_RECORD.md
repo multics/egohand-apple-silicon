@@ -46,3 +46,6 @@ the public clone now passes setup, imports, MPS tensor checks, all 11 tests,
 Ruff and dependency checks. CLI help works when the launcher is invoked from
 another directory. Public source contains no private configuration or history.
 Release validation is complete; no new speed benchmark is claimed.
+
+Repository renamed to `multics/egohand-apple-silicon` to describe the target
+hardware. Clone URL and directory instructions updated. Runtime unchanged.

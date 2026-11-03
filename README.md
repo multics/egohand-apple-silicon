@@ -1,4 +1,4 @@
-# EgoHand on macOS
+# EgoHand on Apple Silicon
 
 Run NVIDIA EgoHand-v1 on Apple Silicon with PyTorch MPS and a Core ML hand
 detector. This experimental integration exports both hand meshes, 25 joints
@@ -15,8 +15,8 @@ model loading. The EgoHand checkpoint alone is about 10.66 GB. Peak memory
 and a minimum supported RAM size have not been established.
 
 ```sh
-git clone https://github.com/multics/egohand-macos.git
-cd egohand-macos
+git clone https://github.com/multics/egohand-apple-silicon.git
+cd egohand-apple-silicon
 ./setup.sh
 ./run_demo.sh
 ```
